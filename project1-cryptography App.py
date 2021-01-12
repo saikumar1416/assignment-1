@@ -9,7 +9,7 @@ root.title("Chryptography App")
 def encryptMessage():
     a = var.get()
     
-    ct = onetimepad.encrypt(a,"shiva")
+    ct = onetimepad.encrypt(a,"saikumar")
     print("Working",ct) 
     
     e2.delete(0,END)
@@ -17,7 +17,7 @@ def encryptMessage():
 
 def dycrptMessage():
     a = var2.get()
-    ct = onetimepad.decrypt(a,"shiva")
+    ct = onetimepad.decrypt(a,"saikumar")
     print("Working",ct) 
     
     e4.delete(0,END)
